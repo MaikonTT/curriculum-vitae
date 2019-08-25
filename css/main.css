@@ -77,10 +77,8 @@ span {
 }
 
 .info-completa {
-    display: block;
     margin: 0 20px;
-    width: 100%;    
-    height: 100%;
+    width: 100%;
 }
 
 .info-completa p, 
@@ -168,4 +166,9 @@ span {
 
 .habilidades th, td:nth-child(2) {
     text-align: center;
+}
+
+.espaco-branco {
+    display: block;
+    height: 144px;
 }
