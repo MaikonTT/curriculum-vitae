@@ -1,0 +1,156 @@
+html {
+    font-size: 15px;
+    font-family: 'roboto', sans-serif;
+    font-weight: normal;
+    color: #00000087;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+    background-color: #efefef;
+}
+
+span {
+    margin: 0 auto;
+    color: #e67e22;
+}
+
+.conteudo {
+    padding: 30px 0;
+}
+
+.item {    
+    border-bottom: 1px solid #00000050;
+}
+
+.principal {
+    display: flex;
+    margin: 1% auto;
+    width: 60%;
+    max-width: 1280px;
+    height: 100vh;
+}
+
+.info-rapida {
+    display: block;
+    width: 40%;    
+    height: 100%;
+
+    color: #ffffff;
+}
+
+.info-rapida img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.titulo {
+    position: absolute;
+    left: 20px;
+    bottom: 10px;
+}
+
+.titulo h2{
+    margin: 0;    
+    line-height: 20px;
+    font-size: 24px;
+}
+
+.titulo p {
+    margin: 0;
+    line-height: 20px;
+    font-size: 14px;
+}
+
+.fundo{
+    background-color: #e67e22;
+}
+
+.foto {
+    height: auto;
+}
+
+.info-completa {
+    display: block;
+    margin: 0 20px;
+    width: 100%;    
+    height: 100%;
+}
+
+.info-completa p, 
+h2,
+h3 {
+    margin: 0 5px;
+}
+
+.container {
+    position: relative;
+}
+
+.info-completa .container {
+    position: relative;
+    margin: auto auto 20px auto;
+    background-color: #fdfdfd;
+}
+
+.elevacao {    
+    box-shadow: 0px 0px 5px #000000;
+}
+
+.alinhamento {  
+    padding-top: 50px;  
+    margin: auto 0 0 15%;
+}
+
+.dados {
+    margin: 0 0 0 40px;
+}
+
+.dados h3 {
+    margin: 20px 0;
+}
+
+.dados p {
+    margin: 0;
+}
+
+.dados .item {
+    margin: 0 30px 0 0;
+    padding: 0 0 20px 0;
+    border-color: #ffffff75;
+}
+
+.redes {
+    margin-top: 20px;
+}
+
+.social {
+    display: flex;
+}
+
+.social a {
+    display: block;
+    margin-top: 5px; 
+    margin-right: 10px;
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+    box-shadow: inset -3px -3px 5px #00000099;
+}
+
+.social a:hover{
+    box-shadow: 0px 0px 5px 3px #ffffff, inset -3px -3px 5px #00000099;
+}
+
+.social a[href*="linkedin.com"] {
+    background-image: url(../img/linkedin_icon.svg);
+    background-color: #ffffff;
+}
+
+.social a[href*="github.com"] {
+    background-image: url(../img/github_icon.svg);
+    background-color: #ffffff;
+}
