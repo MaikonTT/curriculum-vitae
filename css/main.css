@@ -172,3 +172,43 @@ span {
     display: block;
     height: 144px;
 }
+
+/* espaço para responsividade */
+
+/* smartphones */
+@media only screen and (max-width: 600px){
+    .principal {
+        display: block;
+        width: 95%;
+        margin: 5px auto 5px auto;
+    }
+
+    .info-rapida {
+        width: 100%;
+    }
+
+    .info-completa {
+        margin: auto;
+    }
+}
+
+/* tablets */
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+    .principal {        
+        display: block;
+        width: 70%;
+        margin: 10px auto 10px auto;
+    }
+
+    body{
+        color: #901030;
+    }
+
+    .info-rapida {
+        width: 100%;
+    }
+
+    .info-completa {
+        margin: auto;
+    }
+}
